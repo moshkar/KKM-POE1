@@ -1,0 +1,11 @@
+{
+  "name": "kkm-restaurant-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server . -p 3000 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.2.1"
+  }
+}

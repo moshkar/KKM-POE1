@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact KKM restaurant in Odendaalsrus for orders, bookings, family meals, fresh food, and local service in the Free State.">
+    <meta name="keywords" content="contact KKM, KKM restaurant contact, Odendaalsrus restaurant, family meal bookings, Free State food service">
+    <title>KKM | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand" aria-label="KKM home">
+                <div class="brand-mark">K</div>
+                <span>KKM</span>
+            </div>
+            <nav class="top-nav" aria-label="Main navigation">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container hero-content">
+            <span class="eyebrow">We would love to hear from you</span>
+            <h1>Contact KKM</h1>
+            <p>Reach out to us for food orders, enquiries, and friendly local support from the KKM team.</p>
+            <div class="button-row">
+                <a class="button primary" href="#" data-open-modal="order-modal">Order Now</a>
+                <a class="button secondary" href="#" data-open-modal="booking-modal">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-card">
+                        <div class="section-header">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <p>We are here to help with questions, orders, and service enquiries.</p>
+                        <ul class="contact-list">
+                            <li><strong>Telephone:</strong> 011 345 9901</li>
+                            <li><strong>Email:</strong> info@KKM.co.za</li>
+                            <li><strong>Address:</strong> Odendaalsrus, Free State</li>
+                            <li><strong>Hours:</strong> Mon - Sat: 08:00 - 21:00 • Sun: 09:00 - 18:00</li>
+                        </ul>
+                        <div class="location-photo" aria-label="Our location photo">
+                            <img src="IMAGES/location.webp" alt="KKM restaurant location in Odendaalsrus, Free State food service venue" style="max-width:100%;height:auto;border-radius:8px;display:block;margin:1rem 0;">
+                            <p class="caption">Our restaurant location — Odendaalsrus, Free State</p>
+                        </div>
+                    </div>
+ 
+                    <div class="form-card">
+                        <div class="section-header">
+                            <h2>Send us a message</h2>
+                        </div>
+                        <form id="contactForm" data-success-message="Your message has been sent successfully.">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                            </div>
+
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+                            </div>
+
+                            <button type="submit">Send message</button>
+                            <div class="form-message" hidden></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="booking-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close booking form">×</button>
+            <h3>Book a Table</h3>
+            <p>Reserve your spot for lunch, dinner, or a special event.</p>
+            <form id="bookingForm" data-success-message="Your table booking request has been received.">
+                <div class="form-grid">
+                    <div>
+                        <label for="bookingName">Name</label>
+                        <input id="bookingName" name="bookingName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="bookingPhone">Phone</label>
+                        <input id="bookingPhone" name="bookingPhone" type="tel" required>
+                    </div>
+                    <div>
+                        <label for="bookingDate">Date</label>
+                        <input id="bookingDate" name="bookingDate" type="date" required>
+                    </div>
+                    <div>
+                        <label for="bookingGuests">Guests</label>
+                        <input id="bookingGuests" name="bookingGuests" type="number" min="1" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="bookingNotes">Notes</label>
+                        <textarea id="bookingNotes" name="bookingNotes" rows="4" placeholder="Any special requests?"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Confirm Booking</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="order-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close order form">×</button>
+            <h3>Order Now</h3>
+            <p>Place a pickup or takeaway order with KKM.</p>
+            <form id="orderForm" data-success-message="Your order request has been received. We will contact you shortly.">
+                <div class="form-grid">
+                    <div>
+                        <label for="orderName">Name</label>
+                        <input id="orderName" name="orderName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="orderPhone">Phone</label>
+                        <input id="orderPhone" name="orderPhone" type="tel" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderItem">Dish / Item</label>
+                        <input id="orderItem" name="orderItem" type="text" placeholder="e.g. Chicken & Chips" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderMessage">Order Details</label>
+                        <textarea id="orderMessage" name="orderMessage" rows="4" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit Order</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 KKM. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/sticky.js"></script>
+    <script src="js/scroll-anim.js"></script>
+    <script src="js/seo.js"></script>
+    <script src="js/site-features.js"></script>
+</body>
+</html>

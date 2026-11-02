@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the KKM menu featuring fresh meals, family dinners, burgers, grills, desserts, and drinks in Odendaalsrus, Free State.">
+    <meta name="keywords" content="KKM menu, Free State restaurant menu, family meals, burgers, fresh food, grilled chicken, desserts, drinks">
+    <title>KKM | Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand" aria-label="KKM home">
+                <div class="brand-mark">K</div>
+                <span>KKM</span>
+            </div>
+            <nav class="top-nav" aria-label="Main navigation">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container hero-content">
+            <span class="eyebrow">Freshly prepared</span>
+            <h1>KKM Menu</h1>
+            <p>Comfort food, family favourites, and affordable meals made to satisfy every appetite.</p>
+            <div class="button-row">
+                <a class="button primary" href="#" data-open-modal="order-modal">Order Online</a>
+                <a class="button secondary" href="#" data-open-modal="booking-modal">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="search-panel">
+                    <div class="search-controls">
+                        <div class="search-box">
+                            <input id="menuSearch" type="search" placeholder="Search menu items..." aria-label="Search menu items">
+                        </div>
+                    </div>
+                    <div class="filter-pills" aria-label="Menu categories">
+                        <button type="button" class="filter-pill active" data-filter="all">All</button>
+                        <button type="button" class="filter-pill" data-filter="starters">Starters</button>
+                        <button type="button" class="filter-pill" data-filter="mains">Mains</button>
+                        <button type="button" class="filter-pill" data-filter="family">Family Meals</button>
+                        <button type="button" class="filter-pill" data-filter="desserts">Desserts</button>
+                        <button type="button" class="filter-pill" data-filter="drinks">Drinks</button>
+                    </div>
+                </div>
+
+                <div class="menu-page">
+                    <div class="menu-category" data-category="starters">
+                        <h3>Starters</h3>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Chicken Wings</strong>
+                                    <span>Spicy, crispy and served with a house dip.</span>
+                                </div>
+                                <span class="price-tag">R49</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Garlic Bread</strong>
+                                    <span>Warm toast with garlic butter and herbs.</span>
+                                </div>
+                                <span class="price-tag">R28</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Nacho Platter</strong>
+                                    <span>Loaded with cheese, salsa, jalapeños and guacamole.</span>
+                                </div>
+                                <span class="price-tag">R58</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-category" data-category="mains">
+                        <h3>Mains</h3>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Grilled Chicken Burger</strong>
+                                    <span>Served with chips and fresh salad.</span>
+                                </div>
+                                <span class="price-tag">R89</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Beef Pasta</strong>
+                                    <span>Rich tomato sauce with seasoned beef and herbs.</span>
+                                </div>
+                                <span class="price-tag">R95</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Chicken & Chips</strong>
+                                    <span>Crispy chicken fillet with golden fries.</span>
+                                </div>
+                                <span class="price-tag">R85</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Steak & Veg</strong>
+                                    <span>Grilled steak with vegetables and potato wedges.</span>
+                                </div>
+                                <span class="price-tag">R120</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Veggie Burger</strong>
+                                    <span>Grilled plant-based patty with lettuce, tomato and chips.</span>
+                                </div>
+                                <span class="price-tag">R82</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Fish & Chips</strong>
+                                    <span>Crispy battered fish served with fries and tartar sauce.</span>
+                                </div>
+                                <span class="price-tag">R105</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Lamb Curry</strong>
+                                    <span>Slow-cooked lamb in a spiced curry, served with rice.</span>
+                                </div>
+                                <span class="price-tag">R115</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-category" data-category="family">
+                        <h3>Family Meals</h3>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Family Combo</strong>
+                                    <span>2 mains, chips, salad, and drinks.</span>
+                                </div>
+                                <span class="price-tag">R220</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>BBQ Feast</strong>
+                                    <span>Assorted grilled meats with sides for sharing.</span>
+                                </div>
+                                <span class="price-tag">R300</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-category" data-category="desserts">
+                        <h3>Desserts</h3>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Chocolate Brownie</strong>
+                                    <span>Warm dessert with a rich chocolate finish.</span>
+                                </div>
+                                <span class="price-tag">R35</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Cheesecake</strong>
+                                    <span>Creamy baked cheesecake with berry compote.</span>
+                                </div>
+                                <span class="price-tag">R40</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Ice Cream Sundae</strong>
+                                    <span>Two scoops, chocolate sauce, nuts and a cherry on top.</span>
+                                </div>
+                                <span class="price-tag">R38</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Malva Pudding</strong>
+                                    <span>Traditional warm pudding with custard.</span>
+                                </div>
+                                <span class="price-tag">R36</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Fruit Salad</strong>
+                                    <span>Seasonal fresh fruit with a light syrup.</span>
+                                </div>
+                                <span class="price-tag">R30</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-category" data-category="drinks">
+                        <h3>Drinks</h3>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Milkshake</strong>
+                                    <span>Vanilla, chocolate, or strawberry.</span>
+                                </div>
+                                <span class="price-tag">R32</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Iced Tea</strong>
+                                    <span>Refreshing lemon or peach iced tea.</span>
+                                </div>
+                                <span class="price-tag">R22</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Fresh Juice</strong>
+                                    <span>Orange, apple or mixed seasonal juices.</span>
+                                </div>
+                                <span class="price-tag">R28</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Coffee</strong>
+                                    <span>Espresso, Americano, or cappuccino.</span>
+                                </div>
+                                <span class="price-tag">R20</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <strong>Bottled Water</strong>
+                                    <span>Still or sparkling.</span>
+                                </div>
+                                <span class="price-tag">R15</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="booking-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close booking form">×</button>
+            <h3>Book a Table</h3>
+            <p>Reserve your spot for lunch, dinner, or a special event.</p>
+            <form id="bookingForm" data-success-message="Your table booking request has been received.">
+                <div class="form-grid">
+                    <div>
+                        <label for="bookingName">Name</label>
+                        <input id="bookingName" name="bookingName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="bookingPhone">Phone</label>
+                        <input id="bookingPhone" name="bookingPhone" type="tel" required>
+                    </div>
+                    <div>
+                        <label for="bookingDate">Date</label>
+                        <input id="bookingDate" name="bookingDate" type="date" required>
+                    </div>
+                    <div>
+                        <label for="bookingGuests">Guests</label>
+                        <input id="bookingGuests" name="bookingGuests" type="number" min="1" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="bookingNotes">Notes</label>
+                        <textarea id="bookingNotes" name="bookingNotes" rows="4" placeholder="Any special requests?"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Confirm Booking</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="order-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close order form">×</button>
+            <h3>Order Now</h3>
+            <p>Place a pickup or takeaway order with KKM.</p>
+            <form id="orderForm" data-success-message="Your order request has been received. We will contact you shortly.">
+                <div class="form-grid">
+                    <div>
+                        <label for="orderName">Name</label>
+                        <input id="orderName" name="orderName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="orderPhone">Phone</label>
+                        <input id="orderPhone" name="orderPhone" type="tel" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderItem">Dish / Item</label>
+                        <input id="orderItem" name="orderItem" type="text" placeholder="e.g. Chicken & Chips" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderMessage">Order Details</label>
+                        <textarea id="orderMessage" name="orderMessage" rows="4" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit Order</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="cta-bar" role="region" aria-label="Quick actions">
+        <a class="book" href="#" data-open-modal="booking-modal">Book a Table</a>
+        <a class="order" href="#" data-open-modal="order-modal">Order Now</a>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 KKM. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/sticky.js"></script>
+    <script src="js/scroll-anim.js"></script>
+    <script src="js/seo.js"></script>
+    <script src="js/site-features.js"></script>
+</body>
+</html>

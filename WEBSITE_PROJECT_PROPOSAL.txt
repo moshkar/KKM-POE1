@@ -1,0 +1,72 @@
+WEBSITE PROJECT PROPOSAL
+
+Student Name: Masego Moche
+Student Number: ST10513950
+Organisation: KKM
+Date: 6 August 2026
+
+
+TABLE OF CONTENTS
+1. Organisation Overview
+2. Website Goals and Objectives
+3. Current Website Analysis
+4. Proposed Website Features and Functionality
+5. Design and User Experience
+
+
+1. ORGANISATION OVERVIEW
+
+Name: KKM (Key To More)
+
+History: KKM was founded in 2020 in Odendaalsrus, Free State. It started as a
+small community initiative focused on providing quality services and products
+to residents. Over the past 6 years, KKM has grown to become a trusted name in
+the area, known for reliability and customer-first service.
+
+Mission: To deliver affordable, high-quality solutions that improve the daily
+lives of our customers and community.
+
+Vision: To be the leading service provider in the Free State, recognised for
+excellence, trust and innovation.
+
+Target Audience: Local families, small business owners and residents aged 18-55
+in Odendaalsrus and surrounding towns who need accessible and reliable services.
+
+
+2. WEBSITE GOALS AND OBJECTIVES
+
+Goals:
+  1. Increase brand awareness and reach more customers online.
+  2. Provide information about KKM's services, products and contact details.
+  3. Generate leads through online enquiries and booking forms.
+
+KPIs:
+  - Number of website visits per month
+  - Contact form submissions
+  - Phone calls generated from the website
+  - Bounce rate below 50%
+
+
+3. CURRENT WEBSITE ANALYSIS
+
+N/A - This will be KKM's first official website. Currently KKM relies on
+word-of-mouth and social media only.
+
+
+4. PROPOSED WEBSITE FEATURES AND FUNCTIONALITY
+
+  - Homepage: Company introduction, key services and call-to-action buttons.
+  - About Us: History, mission, team and values.
+  - Services/Products Page: Detailed list with descriptions and images.
+  - Contact Page: Contact form, phone number, email, location and business hours.
+  - Responsive Design: Must work on mobile, tablet and desktop.
+
+
+5. DESIGN AND USER EXPERIENCE
+
+  - Aesthetic: Professional and modern with KKM brand colours. Clean layout with
+    easy navigation.
+  - Branding: Use the KKM logo, consistent fonts and high-quality images of the
+    team and services.
+  - UX: Fast loading speed, clear menus, and accessible for all users, including
+    those with disabilities.

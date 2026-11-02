@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View KKM gallery photos of fresh meals, dining spaces, family restaurant moments, and local service in Odendaalsrus.">
+    <meta name="keywords" content="KKM gallery, restaurant photos, fresh meals, dining area, local food, family dining, Odendaalsrus restaurant">
+    <title>KKM | Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand" aria-label="KKM home">
+                <div class="brand-mark">K</div>
+                <span>KKM</span>
+            </div>
+            <nav class="top-nav" aria-label="Main navigation">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container hero-content">
+            <span class="eyebrow">Freshly prepared</span>
+            <h1>KKM Gallery</h1>
+            <p>Moments from our kitchen, team and dining space — real photos of what we serve and where we welcome guests.</p>
+            <div class="button-row">
+                <a class="button primary" href="mailto:info@KKM.co.za?subject=Online%20Order%20Request">Order Online</a>
+                <a class="button secondary" href="tel:0113459901">Call Us</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Photo Gallery</h2>
+                    <p>Snapshots from our kitchen, events, and daily service.</p>
+                </div>
+                <div class="gallery-grid">
+                    <figure class="card">
+                        <img src="IMAGES/Gallery1.webp" alt="KKM plated meal special with fresh ingredients and local restaurant presentation">
+                        <figcaption>Plated special</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/Gallery2.webp" alt="Daily KKM special meal served in a family dining restaurant setting">
+                        <figcaption>Daily special</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/RESTURANT.jpg" alt="KKM dining area and restaurant interior for family meals and local events">
+                        <figcaption>Dining space</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/Local resturant.webp" alt="KKM restaurant interior with fresh food and warm community dining atmosphere">
+                        <figcaption>Interior</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/dish.webp" alt="Signature KKM beef pasta and fresh restaurant meal in Odendaalsrus">
+                        <figcaption>Signature dish</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/dish2.webp" alt="Family roast meal served at KKM restaurant in Free State">
+                        <figcaption>Family meal</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/team.webp" alt="KKM restaurant team serving fresh food and friendly customer service">
+                        <figcaption>Our team</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="IMAGES/Service 1.jpg" alt="KKM service moment with food service and local restaurant hospitality">
+                        <figcaption>Service</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="cta-bar" role="region" aria-label="Quick actions">
+        <a class="book" href="#" data-open-modal="booking-modal">Book a Table</a>
+        <a class="order" href="#" data-open-modal="order-modal">Order Now</a>
+    </div>
+
+    <div class="modal" id="booking-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close booking form">×</button>
+            <h3>Book a Table</h3>
+            <p>Reserve your spot for lunch, dinner, or a special event.</p>
+            <form id="bookingForm" data-success-message="Your table booking request has been received.">
+                <div class="form-grid">
+                    <div>
+                        <label for="bookingName">Name</label>
+                        <input id="bookingName" name="bookingName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="bookingPhone">Phone</label>
+                        <input id="bookingPhone" name="bookingPhone" type="tel" required>
+                    </div>
+                    <div>
+                        <label for="bookingDate">Date</label>
+                        <input id="bookingDate" name="bookingDate" type="date" required>
+                    </div>
+                    <div>
+                        <label for="bookingGuests">Guests</label>
+                        <input id="bookingGuests" name="bookingGuests" type="number" min="1" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="bookingNotes">Notes</label>
+                        <textarea id="bookingNotes" name="bookingNotes" rows="4" placeholder="Any special requests?"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Confirm Booking</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="order-modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close order form">×</button>
+            <h3>Order Now</h3>
+            <p>Place a pickup or takeaway order with KKM.</p>
+            <form id="orderForm" data-success-message="Your order request has been received. We will contact you shortly.">
+                <div class="form-grid">
+                    <div>
+                        <label for="orderName">Name</label>
+                        <input id="orderName" name="orderName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="orderPhone">Phone</label>
+                        <input id="orderPhone" name="orderPhone" type="tel" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderItem">Dish / Item</label>
+                        <input id="orderItem" name="orderItem" type="text" placeholder="e.g. Chicken & Chips" required>
+                    </div>
+                    <div class="full-width">
+                        <label for="orderMessage">Order Details</label>
+                        <textarea id="orderMessage" name="orderMessage" rows="4" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit Order</button>
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 KKM. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/sticky.js"></script>
+    <script src="js/scroll-anim.js"></script>
+    <script src="js/seo.js"></script>
+    <script src="js/site-features.js"></script>
+</body>
+</html>
+
+
